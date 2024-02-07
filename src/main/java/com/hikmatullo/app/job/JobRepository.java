@@ -7,12 +7,12 @@ import org.springframework.stereotype.Repository;
 import java.util.List;
 
 @Repository
-public class PostRepository {
+public class JobRepository {
     private final JdbcTemplate jdbcTemplate;
 
     private final String SELECT_SQL = "SELECT * FROM job";
 
-    public PostRepository(JdbcTemplate jdbcTemplate) {
+    public JobRepository(JdbcTemplate jdbcTemplate) {
         this.jdbcTemplate = jdbcTemplate;
     }
 
