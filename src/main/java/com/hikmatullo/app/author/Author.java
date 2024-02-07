@@ -1,4 +1,5 @@
-package com.hikmatullo.app.post;
+package com.hikmatullo.app.author;
+
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
@@ -9,9 +10,9 @@ import lombok.Setter;
 @Setter
 @AllArgsConstructor
 @NoArgsConstructor
-public class Post {
-    private Integer id;
-    private String title;
-    private String description;
-    private Integer authorId;
+public class Author {
+    private Long id;
+    private String firstName;
+    private String lastName;
+
 }
